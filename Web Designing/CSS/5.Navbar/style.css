@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav{
+    background-color: aqua;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 50px;
+}
+
+
+
+ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+ul li a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

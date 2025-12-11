@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.parent {
+    width: 100%;
+    min-height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.child {
+    width: 270px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s linear;
+    border: 1px solid blue;
+}
+
+
+.child:hover{
+    /* margin-bottom: 20px; */
+    transform: translateY(-20%);
+    /* transform: rotate(360deg); */
+}
+
+.child a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
