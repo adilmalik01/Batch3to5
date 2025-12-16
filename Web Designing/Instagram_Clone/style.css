@@ -39,7 +39,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
+
 
 }
 
@@ -64,7 +65,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
 
 }
 
@@ -82,12 +83,12 @@
 
 
 .links-div h3:hover {
-    background-color: rgb(247, 241, 241);
+    background-color: rgb(249, 248, 248);
 }
 
 
 .more-div h3:hover {
-    background-color: rgb(247, 241, 241);
+    background-color: rgb(251, 250, 250);
 }
 
 
@@ -101,8 +102,72 @@
 .postBar {
     width: 55%;
     height: 100vh;
-    background-color: rgb(68, 220, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
+
+
+
+.stories {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+
+.story {
+    width: 50px;
+    height: 40px;
+}
+
+
+.circle {
+    width: 80%;
+    height: 100%;
+    /* border: 2px solid ; */
+    background: linear-gradient(rgb(187, 5, 178), rgb(247, 228, 13));
+    border-radius: 50%;
+    padding: 2px;
+
+}
+
+.stories .circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+.story p {
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+.cards {
+
+    background-color: rgb(58, 226, 43);
+    width: 80%;
+    height: 80%;
+}
+
+
+
 
 
 .rightSidebar {
