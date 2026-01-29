@@ -41,11 +41,11 @@
 // &&    ||
 
 
-let email = "adilmalik@gmail.com"
-let password = 1234
+// let email = "adilmalik@gmail.com"
+// let password = 1234
 
-let verify = email == "adilmalik@gmail.com" || password == 12345
-console.log(verify);
+// let verify = email == "adilmalik@gmail.com" || password == 12345
+// console.log(verify);
 
 
 
